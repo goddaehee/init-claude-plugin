@@ -1,0 +1,24 @@
+{
+  "name": "init-claude-plugin",
+  "owner": {
+    "name": "goddaehee"
+  },
+  "metadata": {
+    "description": "Claude Code 프로젝트 문서 품질 최적화 스킬",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "init-claude",
+      "description": "Claude Code 프로젝트 문서(CLAUDE.md, AGENTS.md, .claude/rules/*) 자동 생성/개선. 3계층 문서 + PDCA 평가 루프로 9.0/10+ 달성.",
+      "version": "1.0.0",
+      "author": {
+        "name": "goddaehee"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/goddaehee/init-claude-plugin",
+      "keywords": ["claude-md", "agents-md", "documentation", "pdca", "init"]
+    }
+  ]
+}

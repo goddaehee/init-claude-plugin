@@ -1,0 +1,11 @@
+{
+  "name": "init-claude",
+  "version": "1.0.0",
+  "description": "Claude Code 프로젝트 문서 품질 최적화 스킬. 3계층 문서 자동 생성 + PDCA 평가 루프로 9.0/10+ 달성.",
+  "author": {
+    "name": "goddaehee"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/goddaehee/init-claude-plugin",
+  "skills": "./skills/"
+}

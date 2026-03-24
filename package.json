@@ -1,0 +1,14 @@
+{
+  "name": "init-claude-plugin",
+  "version": "1.0.0",
+  "description": "Claude Code documentation quality optimization skill with PDCA evaluation loops",
+  "keywords": ["claude-code", "documentation", "agents-md", "skill", "pdca"],
+  "files": [
+    "skills",
+    ".claude-plugin",
+    "CLAUDE.md",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT"
+}
