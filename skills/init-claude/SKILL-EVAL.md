@@ -12,7 +12,7 @@
 | S3 | **Guide Principle Embedding** | `references/guide-principles.md`의 22개 원칙이 스킬 워크플로우에 반영되었는가 | 2 |
 | S4 | **Error Handling** | 에이전트 실패, 빈 결과, 점수 하락 시 폴백 경로가 정의되었는가 | 1 |
 | S5 | **Portability** | 하드코딩 절대경로 0건, 기술 스택 자동 감지, 모노레포/단일 프로젝트 모두 지원 | 2 |
-| S6 | **Sample Quality** | 참조 구현(references/sample-lfos-ui.md)이 C1-C7 9.0+ 달성 | 1 |
+| S6 | **Sample Quality** | 참조 구현(references/sample-typescript-monorepo.md)이 C1-C7 9.0+ 달성 | 1 |
 | S7 | **Orchestration Clarity** | Phase 1→2→3 에이전트 spawn→대기→통합→수정 플로우가 단계별 명확 | 2 |
 | S8 | **Progressive Disclosure** | SKILL.md ≤300줄, 상세 내용은 references/로 분리 | 1 |
 
@@ -53,7 +53,7 @@
 - **0점**: 특정 머신 경로 의존
 
 ### S6 Sample Quality (가중치 1)
-- **10점**: `references/sample-lfos-ui.md`가 C1-C7 9.0+ 점수의 실제 산출물 포함
+- **10점**: `references/sample-typescript-monorepo.md`가 C1-C7 9.0+ 점수의 실제 산출물 포함
 - **7점**: 샘플 존재하나 일부 기준 미달
 - **5점**: 샘플 불완전 또는 구버전
 - **0점**: 샘플 없음
