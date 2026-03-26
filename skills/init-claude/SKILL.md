@@ -44,6 +44,10 @@ Glob tool로 프로젝트 루트 파일을 검색하여 스택 판별:
 
 감지 결과를 모든 에이전트 프롬프트의 컨텍스트로 전달.
 
+## Language Policy
+
+**Default: English prose, local-language literals only.** Agent control in English, product output in local language. ~45% token savings vs CJK prose. Details: `references/language-policy.md`
+
 ## 문서 소유권 모델
 
 채점 전에 소유권을 확인한다. 소유권이 명확해야 C3/C4/C5가 충돌하지 않는다.
