@@ -46,7 +46,7 @@ Glob tool로 프로젝트 루트 파일을 검색하여 스택 판별:
 
 ## Language Policy
 
-**Default: English prose, local-language literals only.** Agent control in English, product output in local language. ~45% token savings vs CJK prose. Details: `references/language-policy.md`
+**Default: 팀의 주 언어.** 교차 도구(Copilot/Cursor) 사용 시 영어 권장. 코드 예시의 BAD/GOOD 주석은 항상 영어. Details: `references/language-policy.md`
 
 ## 문서 소유권 모델
 

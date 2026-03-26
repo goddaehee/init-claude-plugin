@@ -1,8 +1,8 @@
 # Language Policy for Agent Documentation
 
-## Default: English prose, local-language literals only
+## Default: Team's primary language
 
-> "Write agent control in English, write product output in local language."
+> Use the team's primary language for documentation prose. Switch to English when cross-tool portability (Copilot/Cursor) is needed.
 
 ## Content-Language Matrix
 
@@ -43,14 +43,14 @@
 - GitHub Copilot instructions: English
 - AGENTS.md open standard: English
 
-## Override Policy
+## When to Switch to English
 
-Teams may choose local language for all prose if ALL conditions met:
-1. Single-model use only (e.g., Claude exclusively)
-2. Large context window available (≥100K tokens)
-3. Team readability is higher priority than cross-tool portability
+Consider English prose when ANY condition applies:
+1. Cross-tool use: Copilot (8K context), Cursor, Windsurf — token budget critical
+2. International team: Non-native speakers need to read the docs
+3. Open-source/community sharing: Broader audience
 
-When overriding, document the token cost trade-off in CLAUDE.md.
+For single-model teams (Claude) with large context (≥100K): **team language is fine.** The ~45% token savings is <2% of Claude's context window.
 
 ## Migration Guide
 
